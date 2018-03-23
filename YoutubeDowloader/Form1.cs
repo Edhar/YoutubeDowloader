@@ -204,7 +204,7 @@ namespace YoutubeDowloader
 					error += ex.Message + Environment.NewLine;
 					if (ex.Message.Contains("403"))
 					{
-						error += "Looks this video contains content which is restricted from playback on certain sites or applications." + Environment.NewLine;
+						error += "Looks this video contains content which is restricted from playback on certain sites or applications.Try to use https://www.clipconverter.cc/" + Environment.NewLine;
 					}
 					//if (videoInfos.Any())
 					//{
